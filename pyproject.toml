@@ -1,0 +1,15 @@
+[project]
+name = "np_rasp"
+version = "1.0"
+description = "numpy implementation of RASP-L"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file="LICENSE" }
+dependencies = [
+  "numpy",
+  "tqdm",
+]
